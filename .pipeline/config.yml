@@ -27,7 +27,7 @@
       cloudFoundryDeploy:
         deployTool: 'cf_native'
         cloudFoundry: 
-          apiEndpoint: 'https://api.cf.us10.hana.ondemand.com'
+          cfApiEndpoint: 'https://api.cf.us10.hana.ondemand.com'
           org: 'd42cefeatrial'
           space: 'dev'
           credentialsId: 'cfdeploy'
