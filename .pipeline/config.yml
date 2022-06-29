@@ -28,10 +28,10 @@
         deployTool: 'cf_native'
         cloudFoundry: 
           cfApiEndpoint: 'https://api.cf.us10.hana.ondemand.com'
-          org: 'd42cefeatrial'
-          space: 'dev'
-          credentialsId: 'cfdeploy'
-          appName: ''
+          cforg: 'd42cefeatrial'
+          cfspace: 'dev'
+          cfcredentialsId: 'cfdeploy'
+          cfappName: ''
         mtaDeployParameters: '-f --version-rule ALL'
     artifactPrepareVersion:
         versioningType:  'cloud_noTag'
